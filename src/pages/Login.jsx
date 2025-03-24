@@ -9,7 +9,7 @@ const Login = () => {
       window.AppleID.auth.init({
         clientId: "com.arenema.loyaltee.web", // Your Service ID
         scope: "name email",
-        redirectURI: "https://your-ngrok-url.ngrok.io/callback", // change this
+        redirectURI: "https://iazivtkf12.execute-api.eu-north-1.amazonaws.com/default/api/auth/apple/signin", // change this
         usePopup: true,
       });
     };
